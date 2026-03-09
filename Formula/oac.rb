@@ -1,16 +1,17 @@
 class Oac < Formula
   desc "Guided macOS cleaner for leftover AI assistant files"
   homepage "https://github.com/carlisle0615/OpenAgentCleaner"
-  version "0.1.3"
+  license "MIT"
+  version "0.2.0"
 
   on_arm do
-    url "https://github.com/carlisle0615/OpenAgentCleaner/releases/download/v#{version}/oac_0.1.3_darwin_arm64.tar.gz"
-    sha256 "4cfe2827175c5aad3068dd6688b609055bb2231232c2953ef9da5421618d35da"
+    url "https://github.com/carlisle0615/OpenAgentCleaner/releases/download/v#{version}/oac_0.2.0_darwin_arm64.tar.gz"
+    sha256 "46451bfe861f9e9d0c50f824519382477697a3e9c28e46e1f2dccb737b429206"
   end
 
   on_intel do
-    url "https://github.com/carlisle0615/OpenAgentCleaner/releases/download/v#{version}/oac_0.1.3_darwin_amd64.tar.gz"
-    sha256 "e77792f777baf59a624d33ee2b259af9ac67dce0949e798101f3bea9c315474d"
+    url "https://github.com/carlisle0615/OpenAgentCleaner/releases/download/v#{version}/oac_0.2.0_darwin_amd64.tar.gz"
+    sha256 "7070ba96ed1268279ef2bc833ae4f6ffa47dc8a1d77dbf345ceb49a53e64a278"
   end
 
   def install
